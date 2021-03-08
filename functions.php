@@ -14,12 +14,6 @@
 // Load Kirki
 include( get_template_directory() . '/functions/kirki/kirki.php' );
 
-// Load theme updater functions
-function cutslice_theme_updater() {
-	require( get_template_directory() . '/functions/updater/theme-updater.php' );
-}
-add_action( 'after_setup_theme', 'cutslice_theme_updater' );
-
 if ( ! function_exists( 'cutslice_load' ) ) {
 	
 	function cutslice_load() {
