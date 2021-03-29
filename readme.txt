@@ -77,6 +77,10 @@ Content images
 
 == Changelog ==
 
+= 1.0.3 - 2021-03-29 =
+* Fixed: visible focus states on mobile menu
+* Fixed: underline on links in entry
+
 = 1.0.2 - 2021-03-08 =
 * Removed premium theme updater code
 * Updated language files
