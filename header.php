@@ -4,9 +4,9 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
 	<?php endif; ?>
 	
 	<?php wp_head(); ?>
@@ -42,7 +42,7 @@
 			
 		</header><!--/#header-->
 		
-		<div class="main" id="page">
+		<div class="main">
 		
 			<?php if ( has_nav_menu('header') ): ?>
 				<div id="wrap-nav-header" class="wrap-nav">
@@ -56,4 +56,4 @@
 				</div>
 			<?php endif; ?>
 			
-			<div class="main-inner group">
+			<div class="main-inner group" id="page">

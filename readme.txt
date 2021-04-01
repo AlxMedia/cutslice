@@ -77,6 +77,13 @@ Content images
 
 == Changelog ==
 
+= 1.0.4 - 2021-04-01 =
+* Fixed: more visible focus state of burger button
+* Fixed: skip link
+* Fixed: echo, escape and get_ pingback_url
+* Fixed: footer wordpress link translatable
+* Updated language files
+
 = 1.0.3 - 2021-03-29 =
 * Fixed: visible focus states on mobile menu
 * Fixed: underline on links in entry
