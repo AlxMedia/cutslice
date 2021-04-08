@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.5 - 2021-04-08 =
+* Fixed: avatar image and avatar author link
+
 = 1.0.4 - 2021-04-01 =
 * Fixed: more visible focus state of burger button
 * Fixed: skip link
