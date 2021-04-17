@@ -151,7 +151,7 @@ body.single .content-inner > article { max-width: '.esc_attr( get_theme_mod('art
 .wrap-nav,
 .sidebar .post-nav li a:hover,
 .alx-tabs-nav li.active a,
-.type-list-more { background: linear-gradient(130deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+a.type-list-more { background: linear-gradient(130deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 .post-comments { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
 .post-comments > span:before { border-color: transparent '.esc_attr( get_theme_mod('gradient-left') ).' transparent transparent; }
@@ -164,7 +164,7 @@ body.single .content-inner > article { max-width: '.esc_attr( get_theme_mod('art
 .wrap-nav,
 .sidebar .post-nav li a:hover,
 .alx-tabs-nav li.active a,
-.type-list-more { background: linear-gradient(130deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+a.type-list-more { background: linear-gradient(130deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 .post-comments { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 				'."\n";
 			}
