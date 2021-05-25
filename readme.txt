@@ -79,6 +79,7 @@ Content images
 
 = 1.0.7 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
+* Updated language files
 
 = 1.0.6 - 2021-04-17 =
 * Fixed: read more button gradient styling option
